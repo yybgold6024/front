@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상품 구성</title>
+
+    <!--CSS-->
+    <style>
+/* 선택자를 이용하여 요소를 선택 */
+
+/* 스타일 주석
+
+태그명{스타일 작성}
+*/
+td{text-align:center;}
+    </style>
+</head>
+<body>
+    
+      <table border="1">
+          <caption> 선물용과 가정용 상품 구성 </caption>
+            <tr>
+                <th width="100px" height="100px" align="center">용도</th>
+                <th width="100px" height="100px" align="center">중량</th>
+                <th width="100px" height="100px" align="center">갯수</th>
+                <th width="100px" height="100px" align="center">가격</th>
+                <!--
+                너비: width
+                높이: height
+                정렬(중앙/오른쪽/왼쪽): align="center/right/left"-->
+            </tr>
+
+            <tr>
+                <td rowspan="2">선물용</td>
+                <td>3kg</td>
+                <td>11~16과</td>
+                <td>35,000원</td>
+            </tr>
+            <tr>
+                <td>5kg</td>
+                <td>18과~26과</td>
+                <td>52,000원</td>
+            </tr>
+            <tr>
+                <td rowspan="2">가정용</td>
+                <td>3kg</td>
+                <td>11과~16과</td>
+                <td>30,000원</td>
+            </tr>
+            <tr>
+                <td>5kg</td>
+                <td>18과~26과</td>
+                <td>47,000원</td>
+            </tr>
+        </table>
+ 
+
+</body>
+</html>
